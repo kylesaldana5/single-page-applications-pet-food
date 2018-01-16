@@ -21,10 +21,16 @@ function getFoods() {
             displayInfo.innerHTML += `<h3>${brand.name}</h3>`;
 
             brand.types.forEach(item =>{
-                
-            })
+            let displayItems = document.getElementById("displayItems");
+            displayItems.innerHTML += `<h3>${item.type}</h3>`    
+
+            item.volumes.forEach(VP =>{
+            let displayVolume = document.getElementById("displayVolume");
+            displayVolume.innerHTML += `<h3>${VP.name}<br>${VP.price}</h3>`
+            });
+            });
         });
-    }
+    };
    
 };
 
