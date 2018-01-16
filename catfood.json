@@ -1,10 +1,10 @@
 {
-    "dog_brands": [
+    "cat_brands": [
         {
-            "name": "Chuck wagon",
+            "name": "Chuck Kitty",
             "types": [
                 {
-                    "type": "all_natural",
+                    "type": "Kitty",
                     "volumes": [
                         {
                             "name": "32oz",
@@ -32,10 +32,10 @@
             ]
         },
         {
-            "name": "Purina",
+            "name": "Muffin",
             "types": [
                 {
-                    "type": "puppy",
+                    "type": "Oreos",
                     "volumes": [
                         {
                             "name": "16oz",
